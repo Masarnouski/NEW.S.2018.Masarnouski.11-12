@@ -259,3 +259,5 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+NEW.S.2018.Masarnouski.11-12/BinarySearch.Tests/packages.config
+NEW.S.2018.Masarnouski.11-12/Logic.UnitTests/packages.config
