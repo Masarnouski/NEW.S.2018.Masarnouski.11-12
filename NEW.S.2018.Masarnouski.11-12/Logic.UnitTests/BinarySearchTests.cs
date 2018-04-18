@@ -11,16 +11,10 @@ namespace Logic.UnitTests
        [Test]
         public void BinarySearch_IntArray_DefaultComparer_Succed()
         {
-            int[] number = { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765 };
+            int[] number = { 55, 89, 144, 300, 700, 800 };
             Assert.AreEqual(BinarySearch.Search<int>(number, 144), 144); 
         }
 
-        [Test]
-        public void BinarySearch_CharArray_DefaultComparer_Succed()
-        {
-            char[] strs = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ".ToCharArray();
-            Assert.AreEqual(BinarySearch.Search<char>(strs, 'Я'), 'Я');
-        }
         [Test]
         public void BinarySearch_StringArray_CustomComparer_Succed()
         {
